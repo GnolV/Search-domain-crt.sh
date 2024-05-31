@@ -37,7 +37,7 @@ if __name__ == "__main__":
     result = search_domain(cop)
     top_level_domain_lst = []
     domain_list = []
-    with open("C:\\Users\\Admin\\Documents\\tld.txt", "r") as tld:
+    with open("tld.txt", "r") as tld:
         domains = tld.readlines()
         for i in domains:
             top_level_domain_lst.append(i.rstrip("\n"))
