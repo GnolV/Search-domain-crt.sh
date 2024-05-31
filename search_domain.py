@@ -42,6 +42,7 @@ if __name__ == "__main__":
         for i in domains:
             top_level_domain_lst.append(i.rstrip("\n"))
         tld.close()
+        
     for CN in result:
         CN = CN.split(".")
         if len(CN) == 1:
